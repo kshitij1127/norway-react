@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./App.css"
+import { motion } from "framer-motion"
 
 export default function Knowmore() {
     const [selected, setSelected] = useState(null)
@@ -13,7 +14,7 @@ export default function Knowmore() {
     }
 
     return (
-        <div className="wrapper">
+        <motion.div className="wrapper" transition={{ duration: 1 }} animate={{ y: -50  }}>
             <div className="accordtion">
                 {data.map((item, i) => (
                     <div className="item">
@@ -29,7 +30,7 @@ export default function Knowmore() {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     )
 }
 

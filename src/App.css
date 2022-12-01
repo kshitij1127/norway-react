@@ -129,10 +129,10 @@ nav ul li a.active, a:hover::after{
   display: grid;
   width: 114em;
   grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(00px, 1fr));
   align-items: flex-start;
   margin-top: 100px;
-  margin-left: 3%;
+  padding: 2rem;
 }
 
 .grid-item {
@@ -162,6 +162,8 @@ nav ul li a.active, a:hover::after{
   color: #0d0d0d;
   margin-bottom: 1.5rem;
   margin: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .card-text{
@@ -171,6 +173,7 @@ nav ul li a.active, a:hover::after{
   color: #3d3d3d;
   margin-bottom: 2.5rem;
   margin: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .card-btn{
