@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function Home () {
     const [ move, setMove ] = useState(false)
     return (
-        <div className='gradient_bg'>
+        <div className='bg-gradient'>
             <motion.div 
             animate={{ scale: 1, y: move ? -50 : 100 }}
             className='header'

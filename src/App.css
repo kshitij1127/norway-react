@@ -64,7 +64,7 @@ nav ul li a::after{
 
 nav ul li a.active, a:hover::after{
   width: 100%;
-  background: lightgreen;
+  background: rgb(99, 35, 44);
   color: black;
 }
 
@@ -73,7 +73,7 @@ nav ul li a.active, a:hover::after{
   font-family: 'Poppins', sans-serif;
   margin-left: 17%;
   align-content: center;
-  color: white;
+  color: rgb(99, 35, 44);
   margin-top: 3%;
 }
 
@@ -115,7 +115,7 @@ nav ul li a.active, a:hover::after{
   transition: all 0.7s cubic-bezier(1,0,1,0);
   padding-left: 10px;
   padding-right: 10px;
-  color: white;
+  color: #fff;
   letter-spacing: 0.1rem;
 }
 
@@ -127,7 +127,8 @@ nav ul li a.active, a:hover::after{
 
 .grid{
   display: grid;
-  width: 114em;
+  /* width: 114em; */
+  width: 100%;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(00px, 1fr));
   align-items: flex-start;
@@ -194,4 +195,8 @@ nav ul li a.active, a:hover::after{
 
 a {
   font-family: "Poppins";
+}
+
+.background{
+  background-image: linear-gradient(#dd5e89, #f7bb97);
 }

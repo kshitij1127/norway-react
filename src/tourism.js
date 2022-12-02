@@ -12,7 +12,7 @@ import './App.css'
 
 export default function Cards() {
     return (
-        <div className='grid'>
+        <div className='grid background'>
             {data.map((item, i) => (
             <div class="grid-item">
                 <div class="card">

@@ -1,6 +1,6 @@
 export default function Navbar () {
     return(
-        <nav className="nav">
+        <nav className="nav nav-gradient">
             <ul>
                 <li>
                     <a href="/">Home</a>
