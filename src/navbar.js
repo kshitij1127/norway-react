@@ -11,6 +11,9 @@ export default function Navbar () {
                 <li>
                     <a href="/funfacts">funfacts</a>
                 </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
             </ul>
         </nav>
     )

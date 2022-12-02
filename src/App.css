@@ -64,7 +64,7 @@ nav ul li a::after{
 
 nav ul li a.active, a:hover::after{
   width: 100%;
-  background: rgb(99, 35, 44);
+  color: lightgreen;
   color: black;
 }
 
@@ -73,7 +73,8 @@ nav ul li a.active, a:hover::after{
   font-family: 'Poppins', sans-serif;
   margin-left: 17%;
   align-content: center;
-  color: rgb(99, 35, 44);
+  /* color: rgb(99, 35, 44); */
+  color: white;
   margin-top: 3%;
 }
 
@@ -195,8 +196,4 @@ nav ul li a.active, a:hover::after{
 
 a {
   font-family: "Poppins";
-}
-
-.background{
-  background-image: linear-gradient(#dd5e89, #f7bb97);
 }
